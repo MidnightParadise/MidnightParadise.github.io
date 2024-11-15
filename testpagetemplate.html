@@ -1,20 +1,17 @@
+<!DOCTYPE html>
+
+
 <html>
-<template id = "#t1">
-
-
-</template>
+templateCall();
 </html>
-
-
 
 <script>
 void async function templateCall() {
 
-    var templates = document.createElement('template')
-    templates.innerHTML = await (await fetch('templates.html')).text()
+    var templates = document.createElement('template');
+    templates.innerHTML = await (await fetch('templates.html')).text();
 
-    var template1 = templates.content.querySelector('#t1')
-    console.log (template1)
+    var template1 = templates.content.querySelector('#t1');
+    console.log (template1);
 }
-
 </script>
