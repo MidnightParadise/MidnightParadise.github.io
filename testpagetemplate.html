@@ -1,0 +1,12 @@
+void async templateCall(){
+    var templates = document.createElement('template')
+    templates.innerHTML = await (await fetch('templates.html')).text()
+
+    var template1 = templates.content.querySelector('#t1')
+    console.log (template1)
+}
+
+<template id = "#t1">
+
+
+</template>
