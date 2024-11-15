@@ -1,4 +1,6 @@
-void async templateCall(){
+<script>
+void async function templateCall() {
+
     var templates = document.createElement('template')
     templates.innerHTML = await (await fetch('templates.html')).text()
 
@@ -6,7 +8,11 @@ void async templateCall(){
     console.log (template1)
 }
 
+</script>
+
+<html>
 <template id = "#t1">
 
-
+    
 </template>
+</html>
