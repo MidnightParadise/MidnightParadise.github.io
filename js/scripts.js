@@ -6,11 +6,12 @@ function templateCall(id){
         .then(response => response.text())
         .then(data => {document.getElementById(id).innerHTML=data;})
 })
+};
 //No semicolon to end the block from initial function
 
     //const type = "header";
    // const id = "h1";
-};
+
 
 
 
