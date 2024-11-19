@@ -1,6 +1,6 @@
 function templateCall(id){
     document.addEventListener("DOMContentLoaded",function(){
-        const url="midnightparadise.github.io/templates.html"
+        const url="https://midnightparadise.github.io/templates.html"
     
         fetch(url)
         .then(response => response.text())
