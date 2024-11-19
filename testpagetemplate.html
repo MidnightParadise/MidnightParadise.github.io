@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Template Loader</title> <script src="scripts.js"></script> 
+    <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Template Loader</title> 
+        <script src="js/bootstrap.js"></script>
+        <script src="js/scripts.js"></script><script src="js/jquery-3.4.1.min.js"></script>
     </head>
 <!-- <script>
     void async function templateCall(id, url) {
@@ -25,7 +27,5 @@
 </html>
  -->
 
- <body> <h1 id="h1">Loading...</h1> <p id="test">Initial content</p> <script> document.addEventListener("DOMContentLoaded", function() { templateCall("h1"); templateCall("test"); });</script>  <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
+ <body> <h1 id="h1">Loading...</h1> <p id="test">Initial content</p> <script> document.addEventListener("DOMContentLoaded", function() { templateCall("h1"); templateCall("test"); });</script>  
  </body>
