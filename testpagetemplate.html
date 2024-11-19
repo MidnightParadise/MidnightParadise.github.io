@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 
 
-<html>
-templateCall();
-</html>
+<script src="scripts.js"></script>
 
 <script>
-void async function templateCall() {
+    void async function templateCall(id, url) {
+        
+        var templates = document.createElement('template');
+        templates.innerHTML = await (await fetch('templates.html')).text();
+    
+        var template1 = templates.content.querySelector('#t1');
+        console.log (template1);
+    };
+    </script>
+    
 
-    var templates = document.createElement('template');
-    templates.innerHTML = await (await fetch('templates.html')).text();
 
-    var template1 = templates.content.querySelector('#t1');
-    console.log (template1);
-}
-</script>
+<html>
+
+<template id="h1">
+</template>
+
+</html>
+
