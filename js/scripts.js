@@ -1,5 +1,5 @@
 function templateCall(id){
-    document.addEventListener("DOMContentLoaded",function(){
+    
         const url="https://midnightparadise.github.io/templates.html"
     
         fetch(url)
@@ -11,11 +11,11 @@ function templateCall(id){
             return response.text();
             })
             
+
             .then(data => {document.getElementById(id).innerHTML=data;})
             
             .catch(error=>{console.error("Fetch failed", error);})
-    });
-
+            
 };
 
 //No semicolon to end the block from initial function
