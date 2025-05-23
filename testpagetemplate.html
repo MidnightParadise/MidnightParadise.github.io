@@ -53,6 +53,7 @@
     <body> 
         <div id="body1">Loading Help Me </div>
         <div id="test">This is the test information</div>
+        <div id="main-body"></div>
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/scripts.js"></script>
@@ -62,8 +63,7 @@
         <script>
 
             $(function() {
-                $("#main-body").load("body1.html", function() {
-                });
+                $("#main-body").load("body1.html");
             });
         //document.addEventListener("DOMContentLoaded",function(){
         //templateCall("body1");
