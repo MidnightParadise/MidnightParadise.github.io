@@ -60,10 +60,15 @@
 
 
         <script>
-        document.addEventListener("DOMContentLoaded",function(){
+
+            $(function() {
+                $("#main-body").load("body1.html", function() {
+                });
+            });
+        //document.addEventListener("DOMContentLoaded",function(){
         //templateCall("body1");
-        templateCall("test");
-        });
+        //templateCall("test");
+        //});
         </script> 
 
     </body>
