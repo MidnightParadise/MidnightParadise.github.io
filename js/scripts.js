@@ -1,22 +1,22 @@
-function templateCall(id){
+// function templateCall(id){
     
-        const url="https://midnightparadise.github.io/templates.html"
+//         const url="https://midnightparadise.github.io/templates.html"
     
-        fetch(url)
+//         fetch(url)
 
-            .then(response => {
-                if (!response.ok){
-                throw new Error("Network response fail" + response.statusText);
-                }
-            return response.text();
-            })
+//             .then(response => {
+//                 if (!response.ok){
+//                 throw new Error("Network response fail" + response.statusText);
+//                 }
+//             return response.text();
+//             })
             
 
-            .then(data => {document.getElementById(id).innerHTML=data;})
+//             .then(data => {document.getElementById(id).innerHTML=data;})
             
-            .catch(error=>{console.error("Fetch failed", error);})
+//             .catch(error=>{console.error("Fetch failed", error);})
             
-};
+// };
 
 //No semicolon to end the block from initial function
 
