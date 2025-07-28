@@ -223,9 +223,10 @@ a:focus {
 
 /*end header section*/
 
-.slider_section {
+.slider_section #slider_section{
   flex: 1;
   display: flex;
+  width:100%;
   align-items: center;
   justify-content: center;
   color: $white;
