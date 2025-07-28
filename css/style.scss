@@ -227,6 +227,7 @@ a:focus {
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: $white;
 
   #carouselExampleIndicators {
@@ -279,7 +280,7 @@ a:focus {
 
   #carouselExampleIndicators {
     .carousel-indicators {
-      position: unset;
+      position: relative;
       margin: 0;
       margin-top: 45px;
       align-items: center;
