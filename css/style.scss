@@ -373,11 +373,91 @@ a:focus {
   }
 }
 
-// end heathy section
+// end healthy section
 
+//blog section for headers and content
+.blog_section{
+  background-color:#27223f;
+  background-size: cover;
+  background-attachment: fixed;
+  color: $white;
+
+  .heading_container {
+    justify-content: left;
+
+    h2 {
+      &::before {
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  .blog_desc{
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .box {
+    margin-top: 25px;
+    text-align: center;
+
+    .img-box {
+      img {
+        width: 100%;
+      }
+    }
+
+    .detail-box {
+      h5 {
+        font-weight: bold;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+// end blog section
+
+// sidebar section
+.sidebar{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #27223f;
+  padding: 15px;
+  color: $white;
+
+  .sidebar_item {
+    margin-bottom: 20px;
+
+    h5 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+// end sidebar section
 
 // trainer section
-
 .trainer_section {
   background-image: url(../images/trainer-bg.jpg);
   background-size: cover;
