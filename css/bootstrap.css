@@ -6230,7 +6230,6 @@ a.close.disabled {
 
 .carousel-inner::after {
   display: block;
-  width: 100%;
   clear: both;
   content: "";
 }

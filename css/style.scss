@@ -106,7 +106,7 @@ body {
   height: auto;
 }
 
-.header_section {
+.header_section {}
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -115,7 +115,6 @@ body {
 
 .header_section .nav_container {
   margin: 0 auto;
-}
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item {
@@ -223,14 +222,11 @@ a:focus {
 
 /*end header section*/
 
-.slider_section{
+.slider_section {
   flex: 1;
   display: flex;
-  width:100%;
   align-items: center;
-  justify-content: center;
   color: $white;
-  }
 
   #carouselExampleIndicators {
     width: 100%;
@@ -241,7 +237,7 @@ a:focus {
   }
 
   .box {
-    margin: 125px;
+    margin: 125px 0;
   }
 
   .detail-box {
@@ -282,7 +278,7 @@ a:focus {
 
   #carouselExampleIndicators {
     .carousel-indicators {
-      position: relative;
+      position: unset;
       margin: 0;
       margin-top: 45px;
       align-items: center;
@@ -301,7 +297,7 @@ a:focus {
       }
     }
   }
-
+}
 
 // end slider section
 
@@ -383,7 +379,7 @@ a:focus {
 // trainer section
 
 .trainer_section {
-  background-color: #272142;
+  background-image: url(../images/trainer-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: $white;
@@ -464,6 +460,7 @@ a:focus {
   }
 
   form {}
+
   input {
     width: 100%;
     border: none;
@@ -487,7 +484,7 @@ a:focus {
     outline: none;
     border: none;
     color: $white;
-    background: #f02951;
+    background: #ff2953;
     margin: 45px 0 0 auto;
     text-transform: uppercase;
   }
@@ -565,7 +562,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-  background-color: #001b1b;
+  background-color: #fbfdfd;
   padding: 20px;
   font-weight: 500;
 }
