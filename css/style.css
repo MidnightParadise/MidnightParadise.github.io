@@ -468,7 +468,7 @@ a:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 600px;
+    height: fit-content;
   }
 
   .blog_section .box .leftBox,
@@ -482,11 +482,12 @@ a:focus {
       width: 75%;
     }
 
-  .blog_section .box h5::before {
+  .blog_section .box h5 {
         font-weight: bold;
         margin-top: 15px;
       }
-  .blog_section .box p::before {
+  .blog_section .box p {
+        vertical-align:middle;
         text-align: left;
         margin: 10px;
       }
