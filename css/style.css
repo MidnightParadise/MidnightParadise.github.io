@@ -444,7 +444,7 @@ a:focus {
   color: #ffffff;
 }
   .blog_section .heading_container {
-    justify-content: left;
+    justify-content: center;
   }
 
   .blog_section .heading_container h2::before{
@@ -471,6 +471,7 @@ a:focus {
         margin-top: 15px;
       }
   .blog_section .box .detail-box p::before {
+        text-align: left;
         margin-top: 10px;
       }
     
