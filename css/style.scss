@@ -398,11 +398,6 @@ a:focus {
     align-items: center;
   }
 
-  .blog_desc{
-    margin-top: 15px;
-    text-align: left;
-  }
-
   .box {
     margin-top: 25px;
     text-align: center;
@@ -417,6 +412,9 @@ a:focus {
       h5 {
         font-weight: bold;
         margin-top: 15px;
+      }
+      p {
+        margin-top: 10px;
       }
     }
   }
