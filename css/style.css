@@ -475,6 +475,8 @@ a:focus {
   .blog_section .box .rightBox{
     flex: 1;
     padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin: 10px;
 
   }
