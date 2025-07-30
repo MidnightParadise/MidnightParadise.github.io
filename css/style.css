@@ -3,7 +3,9 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-
+.vertical_align{
+  vertical-align: middle;
+}
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
