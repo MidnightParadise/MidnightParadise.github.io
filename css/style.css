@@ -436,6 +436,45 @@ a:focus {
   margin-top: -25px;
 }
 
+
+.blog_section{
+  background-color:#27223f;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+  .blog_section .heading_container {
+    justify-content: left;
+  }
+
+  .blog_section .heading_container h2::before{
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+  }
+
+  .blog_section .row {
+    align-items: center;
+  }
+
+  .blog_section .box {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .blog_section .box .img-box img {
+      width: 100%;
+    }
+
+  .blog_section .box .detail-box h5::before {
+        font-weight: bold;
+        margin-top: 15px;
+      }
+  .blog_section .box .detail-box p::before {
+        margin-top: 10px;
+      }
+    
+
 .contact_section {
   position: relative;
   background-color: #27223f;
