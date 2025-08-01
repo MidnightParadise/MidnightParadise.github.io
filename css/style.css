@@ -480,6 +480,7 @@ a:focus {
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 10px;
+    max-height: 780px
 
   }
   .blog_section .box img {
