@@ -497,7 +497,7 @@ a:focus {
 
   }
   .blog_section .box img {
-    max-width: 90%;
+    max-height: 100%;
   }
 
   .blog_section .box h5 {
