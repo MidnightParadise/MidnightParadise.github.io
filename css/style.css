@@ -213,6 +213,11 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff;
+  text-shadow: 
+    -1px -1px 0 black,  /* Top-left shadow */
+     1px -1px 0 black,  /* Top-right shadow */
+    -1px  1px 0 black,  /* Bottom-left shadow */
+     1px  1px 0 black; /* Bottom-right shadow */
 }
 
 .slider_section #carouselExampleIndicators {
