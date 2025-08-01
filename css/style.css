@@ -243,20 +243,24 @@ a:focus {
 .slider_section .detail-box h3 {
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: inherit;
 }
 
 .slider_section .detail-box h2 {
   font-size: 2.5rem;
+  text-shadow: inherit;
 }
 
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
   font-weight: bold;
   letter-spacing: .5rem;
+  text-shadow: inherit;
 }
 
 .slider_section .detail-box p {
   margin-top: 25px;
+  text-shadow: inherit;
 }
 
 .slider_section .detail-box a {
@@ -272,6 +276,7 @@ a:focus {
   transition: transform 0.3s, -webkit-transform 0.3s;
   text-transform: uppercase;
   margin-top: 35px;
+  text-shadow: inherit;
 }
 
 .slider_section .detail-box a:hover {
