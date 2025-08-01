@@ -483,16 +483,7 @@ a:focus {
     height: fit-content;
   }
 
-  .blog_section .box .leftBox{
-    flex: 1;
-    padding: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 10px;
-    max-height: 1440px;
-    width: 75%;
-  }
-
+  .blog_section .box .leftBox,
   .blog_section .box .rightBox{
     flex: 1;
     padding: 20px;
